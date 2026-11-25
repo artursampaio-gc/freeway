@@ -1,0 +1,14 @@
+# Dependências e arquivos gerados (npm run build:web e os testes geram dist/; deploy/ é montada só na hora de publicar)
+node_modules/
+dist/
+deploy/
+
+# Configuração local das ferramentas
+.claude/
+
+# Segredos nunca entram no repositório: ficam nos Secrets do app no GoDeploy
+.env
+.env.*
+.dev.vars
+
+*.log
